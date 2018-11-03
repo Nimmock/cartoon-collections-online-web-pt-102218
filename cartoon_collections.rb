@@ -30,7 +30,7 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? {|call| call.length > 4}
 end
 
-potentially_cheesy_items = %w[umbrella spinach cheddar helicopter
+potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
 
 def find_the_cheese(potentially_cheesy_items)
   cheeses = %w[cheddar gouda camembert]
